@@ -1,0 +1,4 @@
+requests
+flask
+typing
+flasgger

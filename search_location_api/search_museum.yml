@@ -1,0 +1,21 @@
+Search Museums
+Call this api to fetch museums in given proximity
+---
+tags:
+  - Search museum data
+parameters:
+  - name: lat
+    in: query
+    required: true
+    type: string
+    description: GPS Latitude
+  - name: lng
+    in: query
+    required: true
+    type: string
+    description: GPS Longitude
+responses:
+  500:
+    description: Some issue found, contact system admin
+  200:
+    description: Museum data

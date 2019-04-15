@@ -1,0 +1,8 @@
+
+dev:
+  mapbox_env: "dev"
+  mapbox_access_token: ""
+
+integration:
+  mapbox_env: "integration"
+  mapbox_access_token: ""
